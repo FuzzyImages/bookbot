@@ -40,7 +40,7 @@ def character_report(character_dict):
     character_list.sort(reverse=True, key=sort_on)
 
     for character in character_list:
-        print(f"The {character["character"]} character was found {character["num"]} times")
+        print(f"The '{character["character"]}' character was found {character["num"]} times")
 
 
 def sort_on(dict):
